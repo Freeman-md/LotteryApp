@@ -1,0 +1,38 @@
+.number-ball {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-blue {
+    background-color: steelblue;
+}
+
+.bg-pink {
+    background-color: hotpink;
+}
+
+.bg-green {
+    background-color: forestgreen;
+}
+
+.bg-yellow {
+    background-color: goldenrod;
+}
+
+.bonus-label {
+    margin-top: 20px;
+    font-size: 20px;
+}

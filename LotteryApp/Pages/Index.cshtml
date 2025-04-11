@@ -4,12 +4,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <title>Lottery App</title>
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <h1>Lottery Number Generator</h1>
 
+    <h2>Main Numbers</h2>
+    <div>
+        @foreach (var number in Model.MainNumbers)
+        {
+            <span class="number-ball @Model.GetColorClass(number)">
+                @number
+            </span>
+        }
+    </div>
+
+    <div class="bonus-label">
+        <h2>Bonus Ball</h2>
+        <span class="number-ball @Model.GetColorClass(Model.BonusBall)">
+            @Model.BonusBall
+        </span>
+    </div>
 </body>
 </html>
