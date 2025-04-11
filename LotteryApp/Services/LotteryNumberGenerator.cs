@@ -10,7 +10,7 @@ public class LotteryNumberGenerator : ILotteryNumberGenerator
         _random = new Random();
     }
     
-    public int GenerateBonusBall(HashSet<int> existingNumbers)
+    public int GenerateBonusBall(List<int> existingNumbers)
     {
         int bonus;
 
