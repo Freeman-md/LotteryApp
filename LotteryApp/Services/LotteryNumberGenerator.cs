@@ -22,4 +22,9 @@ public class LotteryNumberGenerator : ILotteryNumberGenerator
     {
         throw new NotImplementedException();
     }
+
+    public List<int> SortNumbers(List<int> numbers)
+    {
+        throw new NotImplementedException();
+    }
 }

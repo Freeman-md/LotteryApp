@@ -6,4 +6,6 @@ public interface ILotteryNumberGenerator {
     public int GenerateBonusBall(HashSet<int> existingNumbers);
 
     public string GetColorClass(int number);
+
+    public List<int> SortNumbers(List<int> numbers);
 }
